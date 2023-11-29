@@ -7,6 +7,6 @@ interface IButtonProps {
 
 const Button: React.FC<IButtonProps> = ({ children }) => {
   return <div className='a-button'>{children}</div>
-};
+}
 
 export default Button
