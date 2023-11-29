@@ -14,7 +14,7 @@ module.exports = {
   rules: {
     '@typescript-eslint/no-unused-vars': 'error',
     'react/react-in-jsx-scope': 'off',
-    'react/jsx-no-target-blank': 'warn',
+    'react/jsx-no-target-blank': 'off',
     'react/prop-types': 'off',
     'react-hooks/exhaustive-deps': 'off',
     'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
