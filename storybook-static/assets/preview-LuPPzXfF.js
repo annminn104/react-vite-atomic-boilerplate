@@ -1,1 +1,0 @@
-const e={parameters:{actions:{argTypesRegex:"^on[A-Z].*"},controls:{matchers:{color:/(background|color)$/i,date:/Date$/i}},a11y:{element:"#storybook-root",config:{rules:[{id:"autocomplete-valid",selector:'*:not([autocomplete="nope"])'},{id:"image-alt",enabled:!1}]},options:{},manual:!0}}};export{e as default};
