@@ -1,6 +1,5 @@
 import type { TestRunnerConfig } from '@storybook/test-runner'
 import { getStoryContext } from '@storybook/test-runner'
-
 import { checkA11y, configureAxe, injectAxe } from 'axe-playwright'
 
 /*
@@ -13,15 +12,18 @@ const config: TestRunnerConfig = {
     exclude: ['no-tests', 'tokens'],
     skip: ['skip-test', 'layout']
   },
+
   getHttpHeaders: async (url) => {
     const token = url.includes('prod') ? 'prod-token' : 'dev-token'
     return {
       Authorization: `Bearer ${token}`
     }
   },
+
   async preVisit(page) {
     await injectAxe(page)
   },
+
   async postVisit(page, context) {
     // Get the entire context of a story, including parameters, args, argTypes, etc.
     const storyContext = await getStoryContext(page, context)
