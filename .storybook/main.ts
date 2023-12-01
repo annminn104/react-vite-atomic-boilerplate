@@ -8,7 +8,8 @@ const config: StorybookConfig = {
     '@storybook/addon-onboarding',
     '@storybook/addon-interactions',
     '@storybook/addon-a11y',
-    '@storybook/test-runner'
+    '@storybook/test-runner',
+    'storybook-addon-react-router-v6'
   ],
   framework: {
     name: '@storybook/react-vite',

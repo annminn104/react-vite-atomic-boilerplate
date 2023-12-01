@@ -20,10 +20,13 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "types": ["node", "@testing-library/jest-dom"],
+
     /* Importing */
+    "importHelpers": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["src/*"],
+      "@common/*": ["src/common/*"]
     }
   },
   "include": ["src"],
